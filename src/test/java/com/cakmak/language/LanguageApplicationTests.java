@@ -1,4 +1,4 @@
-package com.example.Language;
+package com.cakmak.language;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

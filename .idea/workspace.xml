@@ -5,13 +5,72 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e478dfe-afa2-46ec-91dc-a880b8f12eb6" name="Changes" comment="initial commit">
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cakmak/language/config/BaseMapperConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cakmak/language/config/audit/AuditingConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cakmak/language/config/audit/SpringSecurityAuditorAware.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cakmak/language/constant/EndPointConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cakmak/language/constant/MessageKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cakmak/language/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cakmak/language/controller/base/BaseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cakmak/language/controller/impl/AuthControllerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cakmak/language/exceptions/ErrorObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cakmak/language/exceptions/GlobalExceptionHandeler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cakmak/language/exceptions/LanguageException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cakmak/language/model/constant/RecordStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cakmak/language/model/dto/auth/AuthRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cakmak/language/model/dto/auth/AuthRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cakmak/language/model/dto/auth/AuthResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cakmak/language/model/dto/auth/AuthResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cakmak/language/model/dto/base/AbstractDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cakmak/language/model/dto/base/AbstractRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cakmak/language/model/dto/base/AbstractResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cakmak/language/model/dto/base/BaseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cakmak/language/model/dto/base/BaseRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cakmak/language/model/dto/base/BaseResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cakmak/language/model/dto/role/RoleResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cakmak/language/model/dto/user/UserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cakmak/language/model/dto/user/UserRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cakmak/language/model/dto/user/UserResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cakmak/language/model/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cakmak/language/model/entity/Users.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cakmak/language/model/entity/base/AbstractEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cakmak/language/model/entity/base/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cakmak/language/model/mapper/AuthMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cakmak/language/model/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cakmak/language/model/mapper/base/AbstractMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cakmak/language/model/mapper/base/BaseMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cakmak/language/model/type/RoleType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cakmak/language/model/type/TokenType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cakmak/language/repository/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cakmak/language/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cakmak/language/repository/base/BaseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cakmak/language/security/CustomUserDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cakmak/language/security/JWTAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cakmak/language/security/JWTGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cakmak/language/security/JwtAuthEntryPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cakmak/language/security/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cakmak/language/security/SecurityConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cakmak/language/service/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cakmak/language/service/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cakmak/language/service/base/AbstractService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cakmak/language/service/base/BaseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cakmak/language/service/impl/AuthServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cakmak/language/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cakmak/language/util/StringUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HELP.md" beforeDir="false" afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/language/LanguageApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cakmak/language/LanguageApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/language/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cakmak/language/config/SwaggerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/Language/LanguageApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cakmak/language/LanguageApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="GOROOT" url="file://$USER_HOME$/sdk/go1.21rc3" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -21,11 +80,15 @@
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
       <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
         <entry key="com.haulmont.jpb.jpaStructure" value="true" />
       </map>
     </option>
     <option name="myId2Visible">
       <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
         <entry key="com.haulmont.jpb.jpaStructure" value="false" />
       </map>
     </option>
@@ -63,11 +126,17 @@
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "false",
     "go.import.settings.migrated": "true",
+    "go.sdk.automatically.set": "true",
     "last_opened_file_path": "/Users/abc/Documents/Projects/Language-Backend",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "spring.configuration.checksum": "4994a8ffeba4ac3140beb89e8d41f174"
+    "settings.editor.selected.configurable": "project.propGUI",
+    "spring.configuration.checksum": "8512ae7d57b1396273f76fe6ed341a23"
   }
 }]]></component>
   <component name="RunDashboard">
@@ -78,13 +147,24 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="LanguageApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="Language" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.Language.LanguageApplication" />
+    <configuration name="LanguageApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="language" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cakmak.language.LanguageApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cakmak.language.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.LanguageApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -96,6 +176,12 @@
       <updated>1745274701596</updated>
       <workItem from="1745274710238" duration="333000" />
       <workItem from="1745275107702" duration="346000" />
+      <workItem from="1746039934356" duration="3980000" />
+      <workItem from="1747647383791" duration="611000" />
+      <workItem from="1748848824369" duration="870000" />
+      <workItem from="1753217916029" duration="431000" />
+      <workItem from="1753219018966" duration="250000" />
+      <workItem from="1753219291966" duration="1432000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1745275208089</created>

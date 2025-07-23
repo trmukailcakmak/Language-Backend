@@ -1,4 +1,4 @@
-package com.language.config;
+package com.cakmak.language.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -33,6 +33,4 @@ public class SwaggerConfig {
                 .contact(new Contact("Language Interface", "https://github.com/trmukailcakmak", "tr.mukailcakmak@gmail.com"))
                 .build();
     }
-    //for Swagger api doc generation
-    //http://localhost:8080/v2/api-docs
 }
